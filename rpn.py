@@ -12,7 +12,7 @@ def calculate(arg):
 			if token == '+':
 				return arg1 + arg2
 			if token == '^':
-				return arg1**arg2
+				return arg2**arg1
 
 def main():
 	while True:
